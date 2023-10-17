@@ -1,0 +1,16 @@
+def function(x,y)
+
+add=x+y
+sub=x-y
+mult=x*y
+div=x/y
+mod=x%y
+return add,sub,mult,div,mod
+
+#call function
+a,s,m,d,mo=operation(10,20)
+print("Addition is :-",a)
+print("substraction is :-",s)
+print("Multiplication is :-",m)
+print("Division is :-",d)
+print("Modulas is :-",mo)
